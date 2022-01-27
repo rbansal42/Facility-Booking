@@ -93,7 +93,10 @@ body {
     color: #ffffff;
     background-color: #2f2f2f;
     border-style: none;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     box-shadow: 2px ,black,;
 }
 #search_input {
@@ -109,7 +112,10 @@ body {
     color: #ffffff;
     background-color: #2f2f2f;
     border-style: none;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     font-size: 18px;
     font-style: italic;
 }
@@ -120,7 +126,8 @@ footer {
     border-color: #102a43;
     height: 30px;
     font-size: medium; 
-    color: #dddddd;
+    color: #ffffff90;
+    font-style: italic;
     text-align: right;
     justify-content: right;
     padding-right: 30px;
