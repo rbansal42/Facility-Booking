@@ -3,41 +3,61 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <title></title>
+    <title>Facility Booking Portal</title>
   </head>
 
-  <header>
-    <div class="header_div">
+  <body style="background: #1D2025;">
 
-      <div class="header_logo">
-        
-        <img
-        src="./sources/SU_logo1.svg" alt="Sushant University Logo"
-        height="60px"
-        width="auto">
-
-      </div>
-
-      <div class="header_title">
+    <header>
+      <div class="header">
+  
+        <div class="header_logo">
+          
+          <img
+          src="./sources/SU_logo_mono.svg" alt="Sushant University Logo"
+          height="60px"
+          width="auto">
+  
+        </div>
+  
+        <div class="header_title">
+         
+          Facilities Booking Portal
+          
+        </div>
+  
+        <div class="header_profile">
+  
+          <img src="./sources/profile.svg" alt="Profile"
+          height="20px">
        
-        Facilities Booking Portal
-        
+        </div>
+  
       </div>
+  
+    </header>
 
-      <div class="header_profile">
-
-        <img src="./sources/profile.svg" alt="Profile"
-        height="20px">
-     
-      </div>
+    <div class="body_div" style="height: 500px; min-height: max-content;">
+      
+      <form id=search action="search_select.php">
+      
+        <input 
+          type="text" name="Search" id="search_input"
+          placeholder="Which facility would you like to book?"
+          autocapitalize="none"
+          autocomplete="on"
+          spellcheck="false"
+          onclick="input_click()"
+        >
+          
+      </form>
 
     </div>
+      
 
-  </header>
-
-  <body>
-
-    
+    <footer>
+      Made with ❤️ by &nbsp;<a href="https://www.github.com/rbansal42" style="color: #dddddd; font-style: italic;"> Rahul Bansal</a>
+    </footer>
 
   </body>
 
