@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
 
 header {
-    display: table;
+    display: flex;
     background-color: #273D54;
     border-style: none;
     padding: 10px;
@@ -27,13 +27,20 @@ body {
 }
 
 .header_div {
-    display: table;
+    display: flex;
     width: 100%;
 }
 
+
+.header_logo {
+    display: inline;
+    width: 33.33%;
+    vertical-align: middle; 
+}
+
 .header_title {
+    display: inline;
     color: white;
-    display: table-cell;
     justify-content: center;
     height: auto;
     align-items: center;
@@ -46,18 +53,9 @@ body {
     align-self: center;
 }
 
-.header_logo {
-    width: 33.33%;
-    display: table-cell;
-    vertical-align: middle; 
-}
-
 .header_profile {
+    display: inline;
     width: 33.33%;
-    display: table-cell;
-    /* align-items: flex-end; */
-    justify-content: right;
     vertical-align: middle;
-    float: right;
 
 }
