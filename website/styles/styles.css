@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+header {
+    /* display: flex; */
+    background-color: #273D54;
+    border-style: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    /* width: 99%; */
+
+}
+
+h1 {
+    color: #d30000;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    min-width: 300px;
+}
+
+
+.header_logo {
+    display: inline;
+    width: 33%;
+    vertical-align: middle; 
+}
+
+.header_title {
+    display: inline;
+    color: white;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    align-self: center;
+}
+
+.header_profile {
+    display: inline;
+    width: 33%;
+    align-content: center;
+    align-self: center;
+    text-align: right;
+}
+
+.body_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    width: inherit;
+    color: white;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    /* vertical-align: middle; */
+
+}
+
+#search {
+
+    display: flex;
+    align-content: center;
+    width: 70%;
+    height: fit-content; 
+    line-height: 40px;
+    margin-top: 15px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    background-color: #2f2f2f;
+    border-style: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 2px ,black,;
+}
+#search_input {
+
+    display: flex;
+    align-content: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    background-color: #2f2f2f;
+    border-style: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    border-top: 1px;
+    border-color: #102a43;
+    height: 30px;
+    font-size: medium; 
+    color: #ffffff90;
+    font-style: italic;
+    text-align: right;
+    justify-content: right;
+    padding-right: 30px;
+}
