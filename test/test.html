@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>Facility Booking Portal</title>
+    <script src="./scripts/index.js"></script>
   </head>
 
   <body style="background: #1D2025;">
+
 
     <header>
       <div class="header">
@@ -45,9 +47,10 @@
           type="text" name="Search" id="search_input"
           placeholder="Which facility would you like to book?"
           autocapitalize="none"
-          autocomplete="on"
+          autocomplete="off"
           spellcheck="false"
-          onclick="input_click()"
+          autofocus
+          onsubmit="search()"
         >
           
       </form>
