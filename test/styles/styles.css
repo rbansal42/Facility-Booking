@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
 
 header {
-    display: flex;
+    /* display: flex; */
     background-color: #273D54;
     border-style: none;
     padding: 10px;
     margin: 0;
     border-radius: 0;
-    width: 100%;
+    /* width: 99%; */
 
 }
 
@@ -34,7 +34,7 @@ body {
 
 .header_logo {
     display: inline;
-    width: 33.33%;
+    width: 33%;
     vertical-align: middle; 
 }
 
@@ -48,14 +48,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: x-large;
+    text-align: center;
     display: inline-block;
-    width: 33.33%;
+    width: 33%;
     align-self: center;
 }
 
 .header_profile {
     display: inline;
-    width: 33.33%;
-    vertical-align: middle;
-
+    width: 33%;
+    align-content: center;
+    align-self: center;
+    text-align: right;
 }
