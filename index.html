@@ -46,10 +46,10 @@
 
     <div class="body_div" style="height: 500px; min-height: max-content;">
       
-      <form id=search action="search_select.php">
+      <form id=search action="calendar.php" method="get">
       
         <input 
-          type="text" name="Search" id="search_input"
+          type="text" name="q" id="search_input"
           placeholder="Which facility would you like to book?"
           autocapitalize="none"
           autocomplete="off"
@@ -59,6 +59,20 @@
           onfocus="input_click()"
           onsubmit="submit()"
         >
+
+        <button type="submit" 
+          style="width: 100px; 
+            margin-left: 20px;
+            background: #2E2E2E;
+            border-radius: 10px;
+            border: 0.5px solid #AEEE97;
+            font-family: montserrat, sans-serif;
+            font-weight: 800;
+            color: #AEEE97;"
+          onclick="submit()">
+          
+          SUBMIT
+        </button>
           
       </form>
 
